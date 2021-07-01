@@ -8,13 +8,11 @@ const Footer = () => (
       <Row>
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
-            <img src="/static/images/h4i_white.png" height="35" width="200" />
+            <img src="/static/images/data-maps.png" height="417" width="635" />
           </div>
           <p>
-            For all inquiries of partnership or sponsorship, please contact us
-            at{" "}
-            <a href="mailto:contact@hack4impact.org">contact@hack4impact.org</a>
-            .
+            For all inquiries, please contact us at{" "}
+            <a href="mailto:pcowe@my.yorku.ca">datamaps@yorku.ca</a>.
           </p>
         </Col>
         <div className="col-md-1" />
@@ -52,12 +50,12 @@ const Footer = () => (
               </Link>
             </li>
             <li>
-              <Link href="https://medium.com/@hack4impact">
+              <Link href="https://medium.com/@paulcharlesowe">
                 <a>Blog</a>
               </Link>
             </li>
             <li>
-              <a href="mailto:contact@hack4impact.org">Email</a>
+              <a href="mailto:pcowe@my.yorku.ca">Email</a>
             </li>
             <li>
               <Link href="https://www.notion.so/h4iuiuc/Hack4Impact-UIUC-Official-628a998ceff4491a8267187f364947af">
@@ -81,7 +79,7 @@ const Footer = () => (
             </li>
             <li>
               <Link href="/apply/nonprofits">
-                <a>Non-profits</a>
+                <a>Faculty</a>
               </Link>
             </li>
           </ul>

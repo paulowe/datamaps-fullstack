@@ -34,7 +34,6 @@ class Home extends React.Component {
         <ClientSlider />
         <InvolveSection />
         <PartnerSection />
-        <OtherChapters />
         <Footer />
       </div>
     );
