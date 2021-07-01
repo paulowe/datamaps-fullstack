@@ -1,0 +1,14 @@
+{
+  "name": "www.hack4impact.org",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hack4impact/www.hack4impact.org.git",
+  "author": "Hack4Impact Penn <contact@hack4impact.org>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"cd server && yarn dev\" \"cd client && yarn dev\" "
+  },
+  "dependencies": {
+    "concurrently": "^5.1.0"
+  }
+}
