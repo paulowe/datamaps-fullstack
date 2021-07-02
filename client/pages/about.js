@@ -20,8 +20,8 @@ class AboutPage extends React.Component {
         <Head title="About Hack4Impact" />
         <Nav navType="otherNav" />
         <GradientBanner
-          title="We believe in using tech for good."
-          subHeadline="Hack4Impact believes in technology’s huge potential to empower activists and humanitarians to create lasting and impactful social change. We work to foster the wider adoption of software as a tool for social good."
+          title="Our design process is centred around co-creation."
+          subHeadline="DataMaps believes in technology’s huge potential to create learning environments that encourage co-creation with different stakeholders around a common problem."
           arrow
         />
         <MissionSection />

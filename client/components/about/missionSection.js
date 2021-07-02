@@ -16,13 +16,13 @@ const MissionSection = () => (
       <Row>
         <Col md="12" className="text-center">
           <p className="mission-body-text">
-            Hack4Impact exists for both nonprofits and students. We connect
-            student software developers with nonprofits and other socially
-            responsible businesses to develop powerful new tools for social
-            change. This enables nonprofits to further their mission and better
-            engage their clients. We are committed to increasing awareness of
-            technology&#39;s potential for good. We envision a tech industry
-            that emphasizes social impact as a core tenet of success.
+            DataMaps exists for both students and faculty. We connect student
+            software developers with faculty and other socially responsible
+            stakeholders to develop powerful new tools for open education. This
+            enables educational institutions to further their mission and better
+            engage their students. We are committed to increasing awareness of
+            technology&#39;s potential for good in supporting academic
+            initiatives.
           </p>
         </Col>
       </Row>
@@ -34,9 +34,9 @@ const MissionSection = () => (
           {props => (
             <div className="text-center img-holder">
               <img
-                alttext="Retreat team photo"
+                alttext="Transnational Ideathon 2019 team photo"
                 style={props}
-                src="/static/images/retreat.jpg"
+                src="/static/images/ideathon19.jpg"
                 className="shadow"
                 id="mission-team"
               />
