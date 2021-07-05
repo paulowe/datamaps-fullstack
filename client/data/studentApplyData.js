@@ -23,17 +23,17 @@ const socialRoundDate = "";
 const takeHomeExerciseDate = "";
 
 const subHeadline =
-  "Students are a core part of what makes Hack4Impact. Joining Hack4Impact is the perfect way to give back while developing new skills and making long-lasting friendships.";
+  "Students are a core part of what makes DataMaps. Joining DataMaps is the perfect way to give back while developing new skills and making long-lasting friendships.";
 const quote = {
   text:
-    "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At Hack4Impact, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
-  source: "Alex Wu",
-  sourceTitle: "'16"
+    "A lot of classwork is theoretical. You’re given a contrived problem, and then you solve it. At DataMaps, you get to build a product from the ground up. Being exposed to building something from scratch is a great experience as a student.",
+  source: "Johnny Kang",
+  sourceTitle: "'21"
 };
 
 const faq = [
   {
-    question: "What is the general premise of Hack4Impact?",
+    question: "What is the general premise of DataMaps?",
     answer: (
       <>
         <p>
@@ -43,7 +43,7 @@ const faq = [
           <i>Build: </i> Develop the product throughout the semester (~12 weeks){" "}
         </p>
         <p>
-          <i>Ship: </i> Deliver the final product to the nonprofit client!{" "}
+          <i>Ship: </i> Deliver the final product to a real client!{" "}
         </p>
         <p>
           <i>Community: </i> Join an organization with a strong focus on
@@ -56,7 +56,7 @@ const faq = [
     question:
       "Is extensive web development or data science experience required?",
     answer:
-      "Nope! Mentorship is a core value of our organization so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the nonprofit your team is working with."
+      "Nope! Mentorship is a core value of DataMaps so we are always looking to take less experienced developers as long as you are willing to put in the time and have the passion to learn. You will have a tight feedback loop with your project leads along with experienced members on your team to ensure your success and project’s success in-order to benefit the client your team is working with."
   },
   {
     question: "Why don't you accept more students?",
@@ -68,17 +68,18 @@ const faq = [
         <ul>
           <li>
             {" "}
-            We can’t work with all the non-profits in the world, because the
-            quality of work and projects is just not scalable. We need to be
-            incredibly selective with our leads because any risk of wasting an
-            entire six months of time would ultimately be counterproductive for
-            both our clients and students.{" "}
+            We can’t work with all the clients in the world, because the quality
+            of work and projects is just not scalable. We need to be incredibly
+            selective with our leads because any risk of wasting an entire six
+            months of time would ultimately be counterproductive for both our
+            clients and students.{" "}
           </li>
           <li>
             We can’t have enormous teams because productivity inherently goes
             down, and work becomes less meaningful if anyone is tasked with
             completing a miniscule part of the project. On top of that, there
-            are physical limits on the number of groups we can meet in person.
+            are physical limits on the number of groups we can meet in person/
+            through Zoom.
           </li>
           <li>
             We can only interview a fixed number of candidates, no matter how
@@ -136,11 +137,11 @@ const studentProcess = [
       <>
         <p>
           Be sure to come out to our Info Session to get an idea of who we are,
-          what we do, and the impact Hack4Impact has. We hope to see you there
-          and get to know each other!
+          what we do, and the impact DataMaps has. We hope to see you there and
+          get to know each other!
         </p>
         <p>
-          <b className="pt-2"> 6PM - 7PM @ Noyes 100</b>
+          <b className="pt-2"> 6PM - 7PM @ York U Zoom</b>
         </p>
         {/* <p>
           More details at our{" "}
@@ -175,7 +176,7 @@ const studentProcess = [
   {
     title: "First Round Interviews",
     detail:
-      "Hack4Impact looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round behavioral interviews will be 20 minutes long and you will get meet a couple of our members.",
+      "DataMaps looks for students who are hungry to learn, excellent teammates, and are passionate for tech and social impact. Our first round behavioral interviews will be 20 minutes long and you will get meet a couple of our members.",
     icon: <Interview />,
     date: firstRoundInterviewDate
   },

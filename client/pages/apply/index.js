@@ -55,9 +55,9 @@ class ApplyPage extends Component {
 
                 <Row className="margin-lg-top">
                   <div className="col-md-8 offset-md-3">
-                    <h4 clas="text-title">Nonprofits</h4>
+                    <h4 clas="text-title">Faculty</h4>
                     <p>
-                      Have a core need that your nonprofit wants solved? Learn
+                      Have a core need that your faculty wants solved? Learn
                       more about our services and how your organization can
                       partner with us to support your organization's goals and
                       mission.

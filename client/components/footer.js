@@ -40,17 +40,17 @@ const Footer = () => (
           <h4>EXTRAS</h4>
           <ul>
             <li>
-              <Link href="https://www.facebook.com/Hack4Impact/">
+              <Link href="https://www.facebook.com/">
                 <a>Facebook</a>
               </Link>
             </li>
             <li>
-              <Link href="https://github.com/hack4impact">
+              <Link href="https://github.com/paulowe">
                 <a>Github</a>
               </Link>
             </li>
             <li>
-              <Link href="https://medium.com/@paulcharlesowe">
+              <Link href="https://medium.com/datamaps4resources">
                 <a>Blog</a>
               </Link>
             </li>

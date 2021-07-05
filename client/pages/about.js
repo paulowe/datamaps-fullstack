@@ -6,18 +6,18 @@ import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Team from "../components/about/team";
-import { initializeGA, logPage } from "../components/Analytics"
+import { initializeGA, logPage } from "../components/Analytics";
 
 class AboutPage extends React.Component {
   componentDidMount() {
-    initializeGA()
-    logPage()
+    initializeGA();
+    logPage();
   }
 
   render() {
     return (
       <div>
-        <Head title="About Hack4Impact" />
+        <Head title="About DataMaps" />
         <Nav navType="otherNav" />
         <GradientBanner
           title="Our design process is centred around co-creation."

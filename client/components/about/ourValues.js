@@ -34,7 +34,7 @@ const values = [
     text: (
       <>
         We built on the ideathons through a creathon, pivoting to co-creation
-        with students from the{' '}
+        with students from the{" "}
         <a href="https://lassonde.yorku.ca">Lassonde School of Engineering </a>
         to develop reliable software architecture and implementations that
         concretize these ideas and are practicable. This also fostered the
