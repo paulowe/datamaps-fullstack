@@ -8,7 +8,7 @@ const Footer = () => (
       <Row>
         <Col md="5" xs="12" className="footer-left-div">
           <div className="footer-logo-box">
-            <img src="/static/images/dm1.png" height="100" width="330" />
+            <img src="/static/images/map2.png" height="100" width="100" />
           </div>
           <p>
             For all inquiries, please contact us at{" "}
