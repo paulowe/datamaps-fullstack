@@ -13,9 +13,9 @@ const projectAppExample =
   "https://docs.google.com/document/d/1SGG7gxu8lgWMOhxIULMSUZQa-4p0bLwrwDl4SAZW2lE/edit";
 
 // constants for dates
-const applicationDueDate = "September 1, 2019";
-const currentSemester = "Fall 2019";
-const nextSemester = "Spring 2020";
+const applicationDueDate = "September 1, 2021";
+const currentSemester = "Fall 2021";
+const nextSemester = "Winter 2022";
 
 /*
 what's exported
@@ -23,8 +23,8 @@ what's exported
 
 export default {
   subHeadline:
-    "As a nonprofit, you deliver tremendous social value to the community every day. What if you could leverage technology to make your work even more efficient, effective, or far-reaching?",
-  title: "Non-Profit Organizations",
+    "As a faculty member, you deliver tremendous value to the students you teach every day. What if you could leverage technology to make your work even more efficient, effective, or far-reaching?",
+  title: "Faculty Members",
   applicationLink: applicationLink,
   interestFormLink: interestFormLink,
   ngoProcess: [
@@ -32,14 +32,14 @@ export default {
       title: "Nonprofit Interest Form",
       detail: (
         <>
-          This is a short form to get to know your organization better and your
-          potential project ideas. It’ll help us get an initial sense of your
-          organization’s goals, needs, and expectations. <br />
+          This is a short form to get to know you better and your potential
+          project ideas. It’ll help us get an initial sense of your goals,
+          needs, and expectations. <br />
           <br />
           This <a href={interestFormLink}> form </a>
           is open throughout the year and shoot us an
-          <a href="mailto:contact@hack4impact.org"> email</a> after you've
-          submitted it!
+          <a href="mailto:pcowe@my.yorku.ca"> email</a> after you've submitted
+          it!
           <ActionButton
             style={{ display: "block", marginTop: "10px" }}
             text="Fill Out"
@@ -52,7 +52,7 @@ export default {
     {
       title: "Initial Call",
       detail:
-        "We will reach out shortly to schedule a call to dive deeper into your organization and project ideas, while also explaining more about what we do and our goals. Then, we will also work with you to define and clarify your project ideas.",
+        "We will reach out shortly to schedule a call to dive deeper into your project ideas, while also explaining more about what we do and our goals. Then, we will also work with you to define and clarify your ideas.",
       icon: <Phone />
     },
     {
@@ -81,10 +81,9 @@ export default {
   ],
   quote: {
     text:
-      "We absolutely recommend working with Hack4Impact. We needed to address English competency in Cambodia, and Hack4Impact was the actual organization who helped us get it done. Hack4Impact gives nonprofit organizations an opportunity to collaborate and support their mission in ways they even may not have considered.",
-    source: "Kelly Wolfe",
-    sourceTitle:
-      "Love Without Boundaries Managing Director of Strategic Partnerships"
+      "We absolutely recommend working with DataMaps. We needed to address English competency at Camerise, and DataMaps helped us get it done. DataMaps gives faculty members an opportunity to collaborate and support their students and mission in ways they even may not have considered.",
+    source: "Sam Rogers",
+    sourceTitle: "Director of Strategic Partnerships, Camerise"
   },
   faq: [
     {
@@ -114,18 +113,17 @@ export default {
     },
     {
       question: "Is there a development fee?",
-      answer:
-        "We typically charge a fee of $1,000 to our clients for any work that we do. However, this fee can be reduced on a need basis."
+      answer: "Development fees typically vary based on the work that we do."
     },
     {
-      question: "How can I maximize my chances of working with Hack4Impact?",
+      question: "How can I maximize my chances of working with DataMaps?",
       answer: (
         <>
           Fill out our <a href={interestFormLink}>interest form</a> and come in
           with some initial project ideas. Don’t worry about the validity of
           those ideas - we simply use them as a starting point for deeper
-          conversation regarding your organization during our initial call! A
-          detailed application would be extremely helpful!{" "}
+          conversation regarding your goals during our initial call! A detailed
+          application would be extremely helpful!{" "}
           <a href={projectAppExample}>Sample Application</a>
         </>
       )
@@ -138,21 +136,17 @@ export default {
           Some other examples include:
           <ul>
             <li>
-              A platform that displays your organization’s resources for the
-              public on a map.{" "}
-            </li>
-            <li>
-              A system to communicate with and collect data from users via text
-              message surveys.
+              A platform that displays your classroom resources for the public
+              on a map.{" "}
             </li>
             <li>A tool to automate a time-consuming manual process.</li>
             <li>
-              An application that allows you to keep track of the organization's
-              activities and see where cost cutting can occur.
+              An AI application that allows you to cut cost associated with
+              digitization of paper-based records.
             </li>
             <li>
-              An application to keep track of the people you serve and better
-              assess your overall impact.
+              An application to calculate social influence of people and
+              communities you serve to better assess your overall impact.
             </li>
             <li>
               Or anything else that will empower you to broaden your impact!

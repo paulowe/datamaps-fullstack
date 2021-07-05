@@ -12,7 +12,7 @@ import Nav from "../../components/nav";
 import data from "../../data/ngoApplyData";
 import Footer from "../../components/footer";
 
-import { initializeGA, logPage } from "../../components/Analytics"
+import { initializeGA, logPage } from "../../components/Analytics";
 
 // TODO: ADD `closed` prop to ApplicationProcess to add text about applications being closed!
 class NonProfits extends Component {
@@ -22,14 +22,14 @@ class NonProfits extends Component {
   }
 
   componentDidMount() {
-    initializeGA()
-    logPage()
+    initializeGA();
+    logPage();
   }
 
   render() {
     return (
       <div>
-        <Head title="H4I Apply | Nonprofits" />
+        <Head title="DataMaps Apply | Faculty" />
         <Nav navType="otherNav" />
         <GradientBanner
           color="#64ab8a"
@@ -52,7 +52,7 @@ class NonProfits extends Component {
         <FAQ questions={data.faq} />
         <Footer />
       </div>
-    )
+    );
   }
 }
 

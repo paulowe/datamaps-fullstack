@@ -10,17 +10,17 @@ const applicationLink =
   "https://docs.google.com/forms/d/e/1FAIpQLSeyE44_aHt_DOIBu2n0Uk3H_u-_BT2N7sE4rIqpcifUQBz3qQ/viewform";
 
 // current stuff
-const currentSemester = "Fall 2019";
-const nextSemester = "Spring 2020";
+const currentSemester = "Summer 2021";
+const nextSemester = "Fall 2021";
 
 // dates
-const infoSessionDate = "Thu Aug 29, 2019 6-7PM";
-const applicationDueDate = "Monday Sept 2, 2019";
+const infoSessionDate = "Thu Aug 29, 2021 6-7PM";
+const applicationDueDate = "Monday Sept 2, 2021";
 const applicationDueTime = "11:59 p.m.";
-const firstRoundInterviewDate = "Thursday Sept 5, 2019";
-const secondRoundInterviewDate = "";
-const socialRoundDate = "";
-const takeHomeExerciseDate = "";
+const firstRoundInterviewDate = "Thursday Sept 5, 2021";
+const secondRoundInterviewDate = "Wednesday Sept 11, 2021";
+const socialRoundDate = "Friday Sept 13, 2021";
+const takeHomeExerciseDate = "Friday Sept 13, 2021";
 
 const subHeadline =
   "Students are a core part of what makes DataMaps. Joining DataMaps is the perfect way to give back while developing new skills and making long-lasting friendships.";
