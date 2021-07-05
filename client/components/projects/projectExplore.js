@@ -29,7 +29,7 @@ const ProjectExplore = () => (
             text="Students"
             link="/apply/students"
           />
-          <ActionButton text="Non-profits" link="/apply/nonprofits" />
+          <ActionButton text="Faculty" link="/apply/nonprofits" />
         </div>
       </Row>
     </Container>

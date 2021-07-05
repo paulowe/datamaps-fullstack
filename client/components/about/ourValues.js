@@ -14,9 +14,13 @@ const values = [
     title: "Ideathon",
     text: (
       <>
-        We conceived of an ideathon to allow the framing of the co-creation
-        process with foreign students from France, with the goal of
-        conceptualizing these teaching/learning OER applications. <br />
+        We conceived of an ideathon to{" "}
+        <a href="https://www.glendon.yorku.ca/gnl/bilingual-certificate-in-civic-and-social-stewardship-glendon-college/">
+          allow the framing of the co-creation process with foreign students
+          from France
+        </a>
+        , with the goal of conceptualizing these teaching/learning OER
+        applications. <br />
         <br /> The ideathon process also gave students the opportunity to
         develop or be aware of skills required to acquire – intercultural
         fluency competencies, 21st century competencies (team work, digital
@@ -30,10 +34,12 @@ const values = [
     text: (
       <>
         We built on the ideathons through a creathon, pivoting to co-creation
-        with students from the Lassonde School of Engineering to build models
-        and prototypes that concretize these ideas and are practicable. This
-        also fostered the development of skills such as interdisciplinarity, and
-        digital competencies.
+        with students from the{' '}
+        <a href="https://lassonde.yorku.ca">Lassonde School of Engineering </a>
+        to develop reliable software architecture and implementations that
+        concretize these ideas and are practicable. This also fostered the
+        development of skills such as interdisciplinarity, and digital
+        competencies.
       </>
     ),
     imagePath: "/static/images/values/value-2.svg"
@@ -62,7 +68,7 @@ const OurValues = () => (
     <Container>
       <Row>
         <div className="text-center project-detail-title">
-          <h2>Our Values</h2>
+          <h2>Our Approach</h2>
         </div>
       </Row>
 

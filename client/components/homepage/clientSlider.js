@@ -4,18 +4,11 @@ import Link from "next/link";
 
 const clients = [
   {
-    name: "lwb",
+    name: "York",
     width: 250,
     height: 55,
-    logoPath: "/static/images/client_logos/lwblogo.svg",
-    link: "/projects?name=lwb"
-  },
-  {
-    name: "child&#39;s play",
-    width: 140,
-    height: 135,
-    logoPath: "/static/images/client_logos/cplogogreen.png",
-    link: "/projects?name=cp"
+    logoPath: "/static/images/york.png",
+    link: "/projects?name=yorku"
   },
   {
     name: "Kiva-1",
@@ -25,10 +18,10 @@ const clients = [
     link: "/projects?name=kiva-1"
   },
   {
-    name: "philidelphia reads",
+    name: "Glendon College",
     width: 135,
-    height: 120,
-    logoPath: "/static/images/client_logos/philareadslogo.png",
+    height: 130,
+    logoPath: "/static/images/glendon.png",
     link: "/projects?name=pr"
   },
   {
@@ -46,11 +39,11 @@ const clients = [
     link: "/projects?name=gg-2"
   },
   {
-    name: "Kiva-2",
-    width: 160,
-    height: 55,
-    logoPath: "/static/images/client_logos/kivalogo.png",
-    link: "/projects?name=kiva-2"
+    name: "Monterrey",
+    width: 250,
+    height: 40,
+    logoPath: "/static/images/monterrey.png",
+    link: "/projects?name=monterrey"
   },
   {
     name: "NNB",
@@ -60,11 +53,11 @@ const clients = [
     link: "/projects?name=nnb-1"
   },
   {
-    name: "Product Infrastructure",
+    name: "Spreadsheet Map",
     width: 150,
     height: 100,
     logoPath: "/static/images/values/value-1.svg",
-    link: "/projects?name=pi"
+    link: "/projects?name=spreadsheet-map"
   }
 ];
 export default () => (

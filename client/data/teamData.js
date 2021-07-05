@@ -15,12 +15,20 @@ export default {
   ],
   team: [
     {
+      name: "Helen Balderama",
+      role: "Partnership Building"
+    },
+    {
       name: "Dominique Scheffel-Dunand",
-      role: "Professor"
+      role: "Pedagogical and Curriculum Design"
+    },
+    {
+      name: "Marierose Talla",
+      role: "Partnership Building"
     },
     {
       name: "Liam Bekirsky",
-      role: "Project Manager"
+      role: "Pedagogical and Curriculum Design"
     },
     {
       name: "Paul Owe",
