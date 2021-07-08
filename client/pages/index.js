@@ -26,7 +26,7 @@ class Home extends React.Component {
   render() {
     return (
       <div>
-        <Head title="Hack4Impact | Software for Nonprofits" />
+        <Head title="DataMaps | Software for OER" />
         <Nav navType="mainNav" />
         {/* <ToastContainer /> */}
         <Banner />
@@ -34,7 +34,6 @@ class Home extends React.Component {
         <ClientSlider />
         <InvolveSection />
         <PartnerSection />
-        <OtherChapters />
         <Footer />
       </div>
     );

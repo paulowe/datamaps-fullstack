@@ -6,22 +6,22 @@ import Head from "../components/head";
 import Nav from "../components/nav";
 import Footer from "../components/footer";
 import Team from "../components/about/team";
-import { initializeGA, logPage } from "../components/Analytics"
+import { initializeGA, logPage } from "../components/Analytics";
 
 class AboutPage extends React.Component {
   componentDidMount() {
-    initializeGA()
-    logPage()
+    initializeGA();
+    logPage();
   }
 
   render() {
     return (
       <div>
-        <Head title="About Hack4Impact" />
+        <Head title="About DataMaps" />
         <Nav navType="otherNav" />
         <GradientBanner
-          title="We believe in using tech for good."
-          subHeadline="Hack4Impact believes in technology’s huge potential to empower activists and humanitarians to create lasting and impactful social change. We work to foster the wider adoption of software as a tool for social good."
+          title="Our design process is centred around co-creation."
+          subHeadline="DataMaps believes in technology’s huge potential to create learning environments that encourage co-creation with different stakeholders around a common problem."
           arrow
         />
         <MissionSection />

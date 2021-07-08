@@ -21,9 +21,9 @@ export default () => (
         </Col>
         <Col>
           <img
-            width="260"
-            height="65"
-            src="/static/images/york.png"
+            width="170"
+            height="170"
+            src="/static/images/lassonde.png"
             className="center partner-logos"
           />
         </Col>
@@ -31,12 +31,13 @@ export default () => (
       <Row>
         <Col className="text-right">
           <img
-            width="140"
-            height="127"
+            width="170"
+            height="157"
             src="/static/images/usfq.png"
             className="center partner-logos"
           />
         </Col>
+
         <Col>
           <img
             width="260"

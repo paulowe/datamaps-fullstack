@@ -15,9 +15,9 @@ const items = [
   />,
   <ProjectContainer
     title="Spreadsheet Map"
-    subtitle="How might we visualize geolocation data with every day tools to enhance clarity of research findings?"
+    subtitle="How might we visualize location data with arbitrary attributes from spreadsheet columns to enhance clarity of datasets?"
     image="url('/static/images/projects/safemaps/sm-safemaps-cover.png')"
-    link="/projects?name=safemaps"
+    link="https://aif-mvp.herokuapp.com"
   />,
   <ProjectContainer
     title="Globally Networked Learning on Twitter"

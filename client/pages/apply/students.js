@@ -8,7 +8,7 @@ import Head from "../../components/head";
 import Nav from "../../components/nav";
 import Footer from "../../components/footer";
 import data from "../../data/studentApplyData";
-import { initializeGA, logPage } from "../../components/Analytics"
+import { initializeGA, logPage } from "../../components/Analytics";
 
 class Students extends Component {
   constructor(props) {
@@ -17,14 +17,14 @@ class Students extends Component {
   }
 
   componentDidMount() {
-    initializeGA()
-    logPage()
+    initializeGA();
+    logPage();
   }
 
   render() {
     return (
       <div>
-        <Head title="H4I Apply | Students" />
+        <Head title="DataMaps Apply | Students" />
         <Nav navType="otherNav" />
         <GradientBanner
           color="#64ab8a"
@@ -48,9 +48,8 @@ class Students extends Component {
         <FAQ questions={data.faq} />
         <Footer />
       </div>
-    )
+    );
   }
 }
-
 
 export default Students;

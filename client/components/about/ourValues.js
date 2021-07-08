@@ -11,56 +11,55 @@ import Section from "../section";
 // values used in the component below
 const values = [
   {
-    title: "Curiosity",
+    title: "Ideathon",
     text: (
       <>
-        We are eager to learn about technology, ourselves, and the world around
-        us. We dive deep into our fields of study and work, and seek feedback
-        from our teammates, students, and teachers. We are hungry, yet humble;
-        we are able to set aside our egos and view each moment and interaction
-        as an opportunity to learn. <br />
-        <br /> We are incredibly curious about our clients. We know we might not
-        know everything, so we must ask the right questions to even begin to
-        grasp the complexity of our clients’ situations. Curiosity also enables
-        us to look beyond our immediate vicinity and deliver the best solution
-        to our clients, even if the solution isn’t built by Hack4Impact.
+        We conceived of an ideathon to{" "}
+        <a href="https://www.glendon.yorku.ca/gnl/bilingual-certificate-in-civic-and-social-stewardship-glendon-college/">
+          allow the framing of the co-creation process with foreign students
+          from France
+        </a>
+        , with the goal of conceptualizing these teaching/learning OER
+        applications. <br />
+        <br /> The ideathon process also gave students the opportunity to
+        develop or be aware of skills required to acquire – intercultural
+        fluency competencies, 21st century competencies (team work, digital
+        fluency, creative and critical thinking skills), plurilingualism
       </>
     ),
-    imagePath: "/static/images/values/value-1.svg"
+    imagePath: "/static/images/values/value-3.svg"
   },
   {
-    title: "Empathy",
+    title: "Creathon",
     text: (
       <>
-        We look to understand perspectives, situations, and needs, and therefore
-        are not afraid of asking or being asked clarifying questions. We make
-        intentional, well-informed decisions by understanding the environments
-        we are surrounded by and deeply listening to our teammates. We are then
-        able to best mentor our own teammates growth because we can see where
-        they are coming from. <br />
-        <br /> Empathy drives every decision we make on behalf of our clients.
-        Our empathetic approach provides a North Star to our development
-        process. We’re able to settle difficult debates by agreeing and
-        executing on what’s best for our client.
+        We built on the ideathons through a creathon, pivoting to co-creation
+        with students from the{" "}
+        <a href="https://lassonde.yorku.ca">Lassonde School of Engineering </a>
+        to develop reliable software architecture and implementations that
+        concretize these ideas and are practicable. This also fostered the
+        development of skills such as interdisciplinarity, and digital
+        competencies.
       </>
     ),
     imagePath: "/static/images/values/value-2.svg"
   },
   {
-    title: "Intentionality",
+    title: "Consultations",
     text: (
       <>
-        We evaluate the trade offs of our decisions, choose a direction to head,
-        and crush our goals. Whether it be personal or professional growth, we
-        avoid mindless movement and instead purposefully act. <br />
-        <br /> We work with intention. We understand that at the end of the day,
-        Hack4Impact exists to build solutions that are right for our clients and
-        their users. We carefully assess the concerns of our users,
-        stakeholders, and clients, to develop a custom solution that fits our
-        precise constraints.
+        The final phase was integrating the products into real world spaces,
+        getting feedback from stakeholders, and pivoting based on that feedback
+        – This phase is to ensure the stakeholder engagement, empathy,
+        reflection and critical thinking around the OER teaching/learning
+        application to ensure their takeup and use of the tool. <br />
+        <br /> We worked with the intention to build solutions that are right
+        for our clients and their users. We carefully assess the concerns of our
+        users, stakeholders, and clients, to develop a custom solution that fits
+        those precise constraints.
       </>
     ),
-    imagePath: "/static/images/values/value-3.svg"
+    imagePath: "/static/images/values/value-1.svg"
   }
 ];
 
@@ -69,7 +68,7 @@ const OurValues = () => (
     <Container>
       <Row>
         <div className="text-center project-detail-title">
-          <h2>Our Values</h2>
+          <h2>Our Approach</h2>
         </div>
       </Row>
 

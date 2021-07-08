@@ -40,9 +40,9 @@ class NavigationBar extends React.Component {
           <NavbarBrand className="js-scroll-trigger" href="/">
             <img
               id="logo-img"
-              height="35"
-              width="200"
-              src="/static/images/colored-logo.png"
+              height="70"
+              width="70"
+              src="/static/images/map2.png"
               alttext="Hack4Impact logo"
             />
           </NavbarBrand>
@@ -60,7 +60,7 @@ class NavigationBar extends React.Component {
                 </Link>
               </NavItem>
               <NavItem>
-                <Link prefetch href="https://medium.com/@hack4impact">
+                <Link prefetch href="https://medium.com/datamaps4resources">
                   <a className="nav-link pl-3">Blog</a>
                 </Link>
               </NavItem>

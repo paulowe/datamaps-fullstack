@@ -1,10 +1,8 @@
-## Hack4Impact Website
+## DataMaps Website
 
-New Hack4Impact website. Front end is based on UIUC Chapter's site. However, we are adding features that allows user logins, and posting new updates from an admin dashboard.
+Front end is based on UIUC Chapter's site. However, we are adding features that allows user logins, and posting new updates from an admin dashboard.
 
 Tech Stack: React, ReactStrap, Next.JS, MongoDB, Express, NodeJS.
-
-![alt text](https://raw.githubusercontent.com/hack4impact/www.hack4impact.org/master/docs/demo.png "Work in Progress")
 
 ## Get Started
 
