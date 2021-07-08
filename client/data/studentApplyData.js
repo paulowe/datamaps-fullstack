@@ -18,9 +18,9 @@ const infoSessionDate = "Thu Aug 29, 2021 6-7PM";
 const applicationDueDate = "Monday Sept 2, 2021";
 const applicationDueTime = "11:59 p.m.";
 const firstRoundInterviewDate = "Thursday Sept 5, 2021";
-const secondRoundInterviewDate = "";
-const socialRoundDate = "";
-const takeHomeExerciseDate = "";
+const secondRoundInterviewDate = "Wednesday Sept 11, 2021";
+const socialRoundDate = "Friday Sept 13, 2021";
+const takeHomeExerciseDate = "Friday Sept 13, 2021";
 
 const subHeadline =
   "Students are a core part of what makes DataMaps. Joining DataMaps is the perfect way to give back while developing new skills and making long-lasting friendships.";
