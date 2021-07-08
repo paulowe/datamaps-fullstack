@@ -68,6 +68,11 @@ const faq = [
         <ul>
           <li>
             {" "}
+            We can’t work with all the clients in the world, because the quality
+            of work and projects is just not scalable. We need to be incredibly
+            selective with our leads because any risk of wasting an entire six
+            months of time would ultimately be counterproductive for both our
+            clients and students.{" "}
           </li>
           <li>
             We can’t have enormous teams because productivity inherently goes
