@@ -58,9 +58,8 @@ class ApplyPage extends Component {
                     <h4 clas="text-title">Faculty</h4>
                     <p>
                       Have a core need that your faculty wants solved? Learn
-                      more about our services and how your organization can
-                      partner with us to support your organization's goals and
-                      mission.
+                      more about our services and how you can partner with us to
+                      support your team's goals and mission.
                     </p>
                     <ActionButton text="Apply" link="/apply/nonprofits" />
                   </div>
