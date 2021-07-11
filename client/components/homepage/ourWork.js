@@ -15,7 +15,7 @@ const items = [
   />,
   <ProjectContainer
     title="Spreadsheet Map"
-    subtitle="How might we visualize location data with arbitrary attributes from spreadsheet columns to enhance clarity of datasets?"
+    subtitle="A generalized mapping platform for faculty and students using spreadsheets"
     image="url('/static/images/projects/safemaps/sm-safemaps-cover.png')"
     link="https://aif-mvp.herokuapp.com"
   />,
