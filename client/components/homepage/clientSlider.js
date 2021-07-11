@@ -5,52 +5,38 @@ import Link from "next/link";
 const clients = [
   {
     name: "York",
-    width: 250,
-    height: 55,
-    logoPath: "/static/images/york.png",
+    width: 150,
+    height: 150,
+    logoPath: "/static/images/yorku.png",
     link: "/projects?name=yorku"
-  },
-  {
-    name: "Kiva-1",
-    width: 160,
-    height: 55,
-    logoPath: "/static/images/client_logos/kivalogo.png",
-    link: "/projects?name=kiva-1"
   },
   {
     name: "Glendon College",
     width: 135,
-    height: 130,
+    height: 140,
     logoPath: "/static/images/glendon.png",
     link: "/projects?name=pr"
   },
   {
-    name: "C2TC",
-    width: 130,
+    name: "Lassonde",
+    width: 135,
     height: 130,
-    logoPath: "/static/images/client_logos/c2tclogo.png",
-    link: "/projects?name=safemaps"
-  },
-  {
-    name: "Global Giving",
-    width: 250,
-    height: 40,
-    logoPath: "/static/images/client_logos/gglogo.png",
-    link: "/projects?name=gg-2"
+    logoPath: "/static/images/lassonde.png",
+    link: "/projects?name=lse"
   },
   {
     name: "Monterrey",
     width: 250,
-    height: 40,
+    height: 70,
     logoPath: "/static/images/monterrey.png",
     link: "/projects?name=monterrey"
   },
   {
-    name: "NNB",
-    width: 250,
-    height: 50,
-    logoPath: "/static/images/client_logos/nnblogo.png",
-    link: "/projects?name=nnb-1"
+    name: "USFQ",
+    width: 135,
+    height: 130,
+    logoPath: "/static/images/usfq.png",
+    link: "/projects?name=usfq"
   },
   {
     name: "Spreadsheet Map",
