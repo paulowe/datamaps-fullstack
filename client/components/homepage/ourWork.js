@@ -38,13 +38,14 @@ const OurWorkSection = () => (
         {props => (
           <div style={props} id="our-work-title-box">
             <h2 className="title text-center">
-              We believe in using technology to foster virtual mobility.
+              We believe in using technology to promote virtual mobility
             </h2>
             <p className="subtitle text-center">
               What does this mean for your courses, teaching practice and
               research? Join us to learn, ask questions, and help form the
-              direction of York University’s strategy, as we kick-off this work
-              in Open Education.
+              direction of a new teaching and learning paradigm developing
+              cross-cultural competence and perspectives across shared
+              multi-cultural online learning environments
             </p>
           </div>
         )}
