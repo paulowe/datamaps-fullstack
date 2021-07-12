@@ -38,7 +38,7 @@ const OurWorkSection = () => (
         {props => (
           <div style={props} id="our-work-title-box">
             <h2 className="title text-center">
-              We believe in using tech for good.
+              We believe in using technology to foster virtual mobility.
             </h2>
             <p className="subtitle text-center">
               What does this mean for your courses, teaching practice and
