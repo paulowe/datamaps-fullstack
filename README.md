@@ -4,6 +4,8 @@ Front end is based on UIUC Chapter's site. However, we are adding features that 
 
 Tech Stack: React, ReactStrap, Next.JS, MongoDB, Express, NodeJS.
 
+[Watch a video walkthrough of the project](https://www.youtube.com/watch?v=OMIljzaZQZc)
+
 ## Get Started
 
 - Clone this repo
